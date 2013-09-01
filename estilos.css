@@ -62,8 +62,6 @@ h2
 {
 	font-size: 1.2em;
 	list-style-image: url(imagenes/rotulo3.gif);
-	/*list-style-type: circle;*/
-	/*list-style: none;*/
 	text-align: left;
 	text-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
 }
