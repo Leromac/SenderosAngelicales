@@ -98,7 +98,7 @@
    		?>
 			<script>
 				alert("LOS DATOS HAN SIDO ENVIADOS CON EXITO.\n\n DENTRO DE POCO TE CONTACTAREMOS.");
-				location="index.html";
+				location="index.htm";
 			</script>
 		<?php
 		} else {
