@@ -81,7 +81,7 @@
 		$mail->Host         = 'localhost'; // Reemplazar por el servidor de su sitio
 		//$mail->Host         = 'mail.santerosdelamor.co.cc'; // Reemplazar por el servidor de su sitio
 		$mail->Port         = 25;
-		$mail->Username     = 'consultas@senderosangelicales.com'; // Reemplazar por la cuenta de correo a usar PARA ENVIAR el correo
+		$mail->Username     = 'maestrosdelamor@angelesyamor.net'; // Reemplazar por la cuenta de correo a usar PARA ENVIAR el correo
 		$mail->Password     = 'david060500';
 		
 		$email= $_POST['correo'];
@@ -92,7 +92,7 @@
 		//$mail->SetFrom($email, $email);
 		$mail->Subject = "Senderos - ".(strtoupper($_POST['nombre']));
 		$mail->MsgHTML($body);
-		$mail->AddAddress('consultas@senderosangelicales.com'); // Reemplazar por la cuenta de correo a usar PARA RECIBIR EL CORREO	
+		$mail->AddAddress('maestrosdelamor@angelesyamor.net'); // Reemplazar por la cuenta de correo a usar PARA RECIBIR EL CORREO	
 		
 		if ($mail->Send()){
    		?>
